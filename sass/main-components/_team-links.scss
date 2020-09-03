@@ -3,17 +3,16 @@
   height: 44px;
   width: 44px;
   border-radius: 50%;
-  color: #afb1b8;
+  fill: #afb1b8;
   background-color: $white-color;
   justify-content: center;
-  transition-property: $timing-function, background-color $timing-function;
+  transition-property: $timing-function;
   transition-duration: 250ms;
 
   &:hover,
   &:focus {
     background-color: $accent-color;
-    color: $white-color;
-    border-radius: 50%;
+    fill: $white-color;
   }
 }
 .social-links-list {

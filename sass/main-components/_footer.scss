@@ -53,7 +53,7 @@
   }
 }
 .footer-svg {
-  --color1: $white-color;
+  fill: $white-color;
   width: 20px;
   height: 20px;
   display: block;
@@ -79,7 +79,7 @@
 
   &:hover,
   &:focus {
-    color: $accent-color;
+    fill: $accent-color;
   }
 }
 
@@ -89,7 +89,7 @@
 
 .contacts-item:hover,
 .contacts-item:focus {
-  color: $accent-color;
+  fill: $accent-color;
 }
 .contacts-footer-list {
   margin: 0;

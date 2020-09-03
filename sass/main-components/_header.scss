@@ -64,9 +64,7 @@
 }
 .site-nav-link:hover,
 .site-nav-link:focus,
-.site-nav-link.site-nav-link.current,
-.contacts-link:hover,
-.contacts-link:focus {
+.site-nav-link.site-nav-link.current {
   color: $accent-color;
 }
 
@@ -80,8 +78,6 @@
 }
 
 .contacts-link {
-  text-decoration: none;
-  color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -93,9 +89,10 @@
 
   &:hover,
   &:focus {
-    --color2: $accent-color;
+    color: $accent-color;
   }
 }
+
 .contacts-item {
   margin-right: 10px;
   width: 16px;
